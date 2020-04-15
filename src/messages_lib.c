@@ -40,9 +40,3 @@ void enviarMensaje(char* cadena,int socket){
 	void * a_enviar=serializarPaquete(paquete,bytes);
 	send(socket,a_enviar,bytes,0);
 }
-
-
-
-
-
-
